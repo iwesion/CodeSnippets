@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Bezier</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:&lt;#(CGRect)#&gt; byRoundingCorners:&lt;#(UIRectCorner)#&gt; cornerRadii:&lt;#(CGSize)#&gt;];
+    CAShapeLayer *masklayer = [[CAShapeLayer alloc]init];
+    masklayer.frame = &lt;#(CGRect)#&gt;;
+    masklayer.path = path.CGPath;//设置路径
+    &lt;#view#&gt;.layer.mask = masklayer</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>48D1B093-E370-454D-8BAF-3E066CE5C3EE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>设定View圆角</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIBezierPath</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
