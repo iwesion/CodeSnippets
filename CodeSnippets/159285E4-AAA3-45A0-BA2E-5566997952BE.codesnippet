@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xhs_notificationadd</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let notificationName = Notification.Name(rawValue: &lt;#rawValue#&gt;)
+NotificationCenter.default.addObserver(self,
+                                       selector: &lt;#selector#&gt;,
+                                       name: notificationName, object: nil)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>159285E4-AAA3-45A0-BA2E-5566997952BE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>自定义通知的注册响应</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>notificationadd</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
